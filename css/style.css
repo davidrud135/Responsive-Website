@@ -87,7 +87,7 @@ p {
 	-webkit-transition: all 1s;
 	-moz-transition: all 1s;
 	-o-transition: all 1s;
-	
+
 }
 .btn-download:hover {
 	background: #129CF3;
@@ -144,7 +144,7 @@ p {
 	left: 0;
 	width: 70px;
 	height: 1px;
-	background: #129CF3; 
+	background: #129CF3;
 }
 .choose-us-title p {
 	margin-top: 40px;
@@ -353,4 +353,74 @@ p {
 	font-weight: 300;
 	text-transform: uppercase;
 	font-family: "Source Sans Pro", sans-serif;
+}
+/********* Download Now Styles **********/
+.download-now img {
+  width: 100%;
+}
+.available-on {
+  background: #1a1a1a;
+  margin-top: -5px;
+  position: relative;
+}
+.available-title {
+  padding-top: 75px;
+}
+.available-title h2 {
+  color: #fff;
+  font-size: 30px;
+}
+.available-title p {
+  color: #B5B5B5;
+}
+.no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+.available-on-item {
+  text-align: center;
+  border-left: 1px solid #0F1217;
+  min-height: 230px;
+  padding-bottom: 15px;
+  position: relative;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+}
+.available-on-item:hover {
+  background: #121212;
+}
+.available-on-item i {
+  color: #129CF3;
+  text-align: center;
+  opacity: 1;
+  font-size: 40px;
+  padding-top: 90px;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+}
+.available-on-item:hover i {
+  opacity: 0;
+}
+.available-on-inner {
+  position: absolute;
+  bottom: 93px;
+  width: 100%;
+  opacity: 0;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+}
+.available-on-inner h2 {
+  text-align: center;
+  font-weight: 300;
+  color: #D7DADB;
+  font-size: 16px;
+}
+.available-on-item:hover div.available-on-inner {
+  opacity: 1;
 }
