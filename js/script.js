@@ -67,3 +67,10 @@ $(document).ready(() => {
       }
     });
 });
+
+$(document).ready(() => {
+  $('.navbar-nav li a').click(() => {
+    $('.navbar-nav li a').parent().removeClass('active');
+    $('.navbar-nav li a:focus').parent().addClass('active');
+  });
+});
