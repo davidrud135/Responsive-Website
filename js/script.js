@@ -1,3 +1,4 @@
+/* eslint-disable func-names */
 $(document).ready(() => {
   $(window).scroll(() => {
     if ($(window).scrollTop() < 80) {
@@ -68,9 +69,31 @@ $(document).ready(() => {
     });
 });
 
+
 $(document).ready(() => {
-  $('.navbar-nav li a').click(() => {
+  $('.navbar-nav li a').click(function () {
     $('.navbar-nav li a').parent().removeClass('active');
-    $('.navbar-nav li a:focus').parent().addClass('active');
+    $(this).parent().addClass('active');
+  });
+});
+
+$(document).ready(() => {
+  $(window).scroll(() => {
+    $('section').each(function () {
+      const currSectionId = $(this).attr('id');
+      const currSectionHeight = $(this).outerHeight();
+      const currSectionPosition = $(this).offset().top - 70;
+
+      if (
+        $(window).scrollTop() > currSectionPosition
+        && $(window).scrollTop() < currSectionPosition + currSectionHeight
+      ) {
+        $(`.navbar-nav li a[href="#${currSectionId}"]`).parent()
+          .addClass('active');
+      } else {
+        $(`.navbar-nav li a[href="#${currSectionId}"]`).parent()
+          .removeClass('active');
+      }
+    });
   });
 });
