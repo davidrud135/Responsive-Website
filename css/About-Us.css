@@ -1,0 +1,58 @@
+.choose-us-wrapper {
+	padding-top: 50px;
+}
+.about-iphone img {
+	margin-top: 8px;
+}
+.choose-us-title {
+	padding-bottom: 50px;
+}
+.choose-us-title h2 {
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 30px;
+	line-height: 37px;
+	position: relative;
+}
+.choose-us-title h2:after {
+	content: "";
+	position: absolute;
+	bottom: -12px;
+	left: 0;
+	width: 70px;
+	height: 1px;
+	background: #129CF3;
+}
+.choose-us-title p {
+	margin-top: 40px;
+	font-size: 19px;
+	line-height: 24px;
+}
+.choose-us-item {
+	position: relative;
+	padding-bottom: 4px;
+	padding-left: 80px;
+}
+.choose-us-item div {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.choose-us-item div i {
+	font-size: 55px;
+	color: #129CF3;
+	transition: all 1s;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+}
+.choose-us-item h3 {
+	color: #343434;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: 800;
+}
+.choose-us-item p {
+	color: #727272;
+	font-size: 15px;
+}

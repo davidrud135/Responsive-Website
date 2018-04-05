@@ -1,0 +1,30 @@
+.footer {
+  background: #1a1a1a;
+  padding: 35px 0;
+  border-bottom: 3px solid #129CF3;
+}
+#copyright {
+  width: 100%;
+}
+#copyright p {
+  color: #8C8B8A;
+  font-weight: 600;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-family: "Source Sans Pro", sans-serif;
+}
+#copyright p a {
+  text-decoration: none;
+  color: #129CF3;
+}
+.scroll-top {
+  text-align: right;
+}
+.scroll-top a {
+  background: #129CF3;
+  padding: 25px;
+}
+.scroll-top a i {
+  color: #fff;
+  font-size: 25px;
+}
