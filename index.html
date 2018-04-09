@@ -7,10 +7,12 @@
   <title>LoSo - Simple, Clean And Responsive Website</title>
 
   <link href="https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500i,600,600i,700,700i,800,900|Source+Sans+Pro:300,300i,400,400i,600i,700,900" rel="stylesheet">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <link rel="stylesheet" href="css/responsive.css">
   <link rel="stylesheet" href="css/jquery.bxslider.css">
-  <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="css/General.css">
   <link rel="stylesheet" href="css/Header.css">
   <link rel="stylesheet" href="css/About-Us.css">
@@ -23,18 +25,26 @@
   <link rel="stylesheet" href="css/Contact-Us.css">
   <link rel="stylesheet" href="css/Footer.css">
 
-  <script src="js/jquery-3.2.1.js" defer></script>
-  <script src="js/bootstrap.min.js" defer></script>
+  <!-- CDN JS libs -->
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous" defer></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous" defer></script>
+  <script
+  src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js" defer>
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" defer></script>
+
+  <!-- Custom JS files -->
   <script src="js/Navbar-Animation.js" defer></script>
   <script src="js/Active-Links.js" defer></script>
   <script src="js/Links-Smooth-Scrolling.js" defer></script>
   <script src="js/Header-AutoPadding-Animation.js" defer></script>
-  <script src="js/jquery.bxslider.js" defer></script>
   <script src="js/bxslider.js" defer></script>
-  <script src="js/jquery.counterup.min.js" defer></script>
-  <script src="js/jquery.waypoints.min.js" defer></script>
   <script src="js/Counters-Animation.js" defer></script>
-  <script src="js/wow.min.js" defer></script>
   <script src="js/Wow-Animation.js" defer></script>
 </head>
 <body>
@@ -118,7 +128,7 @@
         <div class="row">
           <div class="col-md-6">
             <div class="about-iphone wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">
-              <img src="imgs/about-iphone.png" alt="iphone">
+              <img  class="img-responsive" src="imgs/about-iphone.png" alt="iphone">
             </div>
           </div>
           <div class="col-md-6 wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">
@@ -263,7 +273,7 @@
           </div>
           <div class="col-md-4">
             <div class="feature-iphone">
-              <img class="wow bounceIn" data-wow-duration="1s" src="imgs/iphone-02.png" alt="feature iphone">
+              <img class="wow bounceIn img-responsive" data-wow-duration="1s" src="imgs/iphone-02.png" alt="feature iphone">
             </div>
           </div>
           <div class="col-md-4 wow fadeInRight" data-wow-duration="1s">
@@ -410,7 +420,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-8 col-md-offset-2 wow fadeInUp" data-wow-duration="1s">
-          <img src="../LoSo/imgs/download-screen.png" alt="donload screen">
+          <img class="img-responsive" src="../LoSo/imgs/download-screen.png" alt="donload screen">
         </div>
       </div>
     </div>
