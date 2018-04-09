@@ -1,0 +1,20 @@
+/* Small devices */
+@media only screen and (max-width: 767px) {
+  .navbar-default {
+    background: #fff !important;
+    border: 1px solid #e6e6e6 !important;
+
+  }
+}
+/* Small devices and Tablets */
+@media only screen and (max-width: 768px) {
+
+}
+/* Medium devices, Desktop */
+@media only screen and (max-width: 992px) {
+
+}
+/* Large devices, Wide Screen */
+@media only screen and (max-width: 1200px) {
+
+}
