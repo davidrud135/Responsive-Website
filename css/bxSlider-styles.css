@@ -1,0 +1,25 @@
+.bx-wrapper {
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: none;
+  background: none;
+}
+.bx-wrapper .bx-loading {
+  background: none;
+}
+.bx-wrapper .bx-pager.bx-default-pager a {
+  background: none;
+  border: 1px #129CF3 solid;
+}
+.bx-wrapper .bx-pager.bx-default-pager a:hover,
+.bx-wrapper .bx-pager.bx-default-pager a.active,
+.bx-wrapper .bx-pager.bx-default-pager a:focus {
+  background: #129CF3;
+}
+.bx-wrapper .bx-prev {
+  background: none;
+}
+.bx-wrapper .bx-next {
+  background: none;
+}
