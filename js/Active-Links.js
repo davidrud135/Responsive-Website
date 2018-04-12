@@ -1,6 +1,7 @@
+/* eslint-disable */
 (function () {
-  const $navbarLinksSelector = $('.navbar-nav li a'),
-    $window = $(window);
+  const $navbarLinksSelector = $('.navbar-nav li a');
+  const $window = $(window);
 
   function onLinkClick() {
     const $this = $(this);
@@ -9,16 +10,16 @@
   };
 
   function highlightCurrLink() {
-    const $this = $(this),
-      $currSectionId = $this.attr('id'),
-      $currSectionHeight = $this.outerHeight(),
-      $currSectionPositionTop = $this.offset().top - 70,
-      $currSectionLinkSelector =
-        $(`.navbar-nav li a[href="#${$currSectionId}"]`);
+    const $this = $(this);
+    const $currSectionId = $this.attr('id');
+    const $currSectionHeight = $this.outerHeight();
+    const $currSectionPositionTop = $this.offset().top - 70;
+    const $currSectionLinkSelector =
+      $(`.navbar-nav li a[href="#${$currSectionId}"]`);
 
     if(
-      $window.scrollTop() > $currSectionPositionTop
-      && $window.scrollTop() < $currSectionPositionTop + $currSectionHeight
+      $window.scrollTop() > $currSectionPositionTop &&
+      $window.scrollTop() < $currSectionPositionTop + $currSectionHeight
     ) {
       $currSectionLinkSelector.parent().addClass('active');
     } else {
