@@ -1,4 +1,3 @@
-/* eslint-disable */
 (function () {
   const $navbarLinksSelector = $('.navbar-nav li a');
   const $window = $(window);
