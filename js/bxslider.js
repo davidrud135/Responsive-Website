@@ -1,4 +1,3 @@
-/* eslint-disable func-names */
 (function () {
   $(document).ready(() => {
     $('.bxslider').bxSlider({

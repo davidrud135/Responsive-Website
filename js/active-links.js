@@ -15,8 +15,7 @@
     const $currSectionPositionTop = $this.offset().top - 70;
     const $currSectionLinkSelector =
       $(`.navbar-nav li a[href="#${$currSectionId}"]`);
-
-    if(
+    if (
       $window.scrollTop() > $currSectionPositionTop &&
       $window.scrollTop() < $currSectionPositionTop + $currSectionHeight
     ) {

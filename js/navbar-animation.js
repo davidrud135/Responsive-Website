@@ -1,8 +1,6 @@
-/* eslint-disable func-names */
 (function () {
   $(document).ready(() => {
     const $window = $(window);
-
     $window.scroll(() => {
       if ($window.scrollTop() < 80) {
         $('.navbar').css({
