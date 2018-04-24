@@ -25,6 +25,7 @@
   }
 
   $(document).ready(() => {
-    $('a[href*="#"]').click(scroll);
+    const $allLinksSelector = $('a[href*="#"]');
+    $allLinksSelector.click(scroll);
   });
 }(jQuery));
