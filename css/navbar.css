@@ -1,0 +1,11 @@
+nav.hide {
+  margin-top: -100px;
+  opacity: 0;
+  background-color: rgba(59, 59, 59, 0);
+}
+nav.show {
+  margin-top: 0px;
+  opacity: 1;
+  background: rgba(59, 59, 59, 0.7);
+  border-color: #444;
+}
