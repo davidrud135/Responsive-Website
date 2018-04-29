@@ -1,17 +1,17 @@
 .navbar-default {
-  transition: margin-top 350ms ease-in-out, opacity 750ms ease-in-out !important;
-  -webkit-transition: margin-top 350ms ease-in-out, opacity 750ms ease-in-out;
-  -moz-transition: margin-top 350ms ease-in-out, opacity 750ms ease-in-out;
-  -o-transition: margin-top 350ms ease-in-out, opacity 750ms ease-in-out;
+  transition: margin-top 1s ease-out;
+  -webkit-transition: margin-top 1s ease-out;
+  -moz-transition: margin-top 1s ease-out;
+  -o-transition: margin-top 1s ease-out;
 }
 .hide-navbar-div {
   margin-top: -100px;
   opacity: 0;
   background-color: rgba(59, 59, 59, 0);
 }
-.show-navbar-div {
+nav.show-navbar-div {
   margin-top: 0px;
   opacity: 1;
-  background: rgba(59, 59, 59, 0.7) !important;
+  background: rgba(59, 59, 59, 0.7);
   border-color: #444;
 }
