@@ -82,10 +82,10 @@
   background: transparent;
   border-color: #444;
   z-index: 110;
-  transition: all 5s;
-  -webkit-transition: all 5s;
-	-moz-transition: all 5s;
-	-o-transition: all 5s;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
 }
 .navbar-default .navbar-nav > li > a {
   color: #B5B5B5;
