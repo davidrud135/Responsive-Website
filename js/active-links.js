@@ -2,12 +2,17 @@
   const $navbarLinksSelector = $('.navbar-nav li a');
   const $window = $(window);
 
+  $(document).ready(() => {
+    $navbarLinksSelector.on('click', onLinkClick);
+    $window.on('scroll', () => {
+      $('section').each(highlightCurrLink);
+    });
+  });
   function onLinkClick() {
     const $this = $(this);
     $navbarLinksSelector.parent().removeClass('active');
     $this.parent().addClass('active');
-  };
-
+  }
   function highlightCurrLink() {
     const $this = $(this);
     const $currSectionId = $this.attr('id');
@@ -23,12 +28,5 @@
     } else {
       $currSectionLinkSelector.parent().removeClass('active');
     }
-  };
-
-  $(document).ready(() => {
-    $navbarLinksSelector.on('click', onLinkClick);
-    $window.on('scroll', () => {
-      $('section').each(highlightCurrLink);
-    });
-  });
+  }
 }(jQuery));
